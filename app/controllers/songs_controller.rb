@@ -24,6 +24,9 @@ class SongsController < ApplicationController
     redirect_to song_path(@song)
   end
 
+  def index
+  end
+
   private
 
   def song_params
